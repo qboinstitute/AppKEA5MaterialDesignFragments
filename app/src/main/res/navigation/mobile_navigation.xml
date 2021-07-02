@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navPrincipalFragment">
+    <fragment
+        android:id="@+id/navPrincipalFragment"
+        android:name="com.qbo.appkea5materialdesignfragments.PrincipalFragment"
+        android:label="@string/valfragmentprincipal"
+        tools:layout="@layout/fragment_principal" />
+    <fragment
+        android:id="@+id/navGaleriaFragment"
+        android:name="com.qbo.appkea5materialdesignfragments.GaleriaFragment"
+        android:label="@string/valfragmentgaleria"
+        tools:layout="@layout/fragment_galeria" />
+    <fragment
+        android:id="@+id/navNotificacionesFragment"
+        android:name="com.qbo.appkea5materialdesignfragments.NotificacionesFragment"
+        android:label="@string/valfragmentnotif"
+        tools:layout="@layout/fragment_notificaciones" />
+    <fragment
+        android:id="@+id/navConsultasFragment"
+        android:name="com.qbo.appkea5materialdesignfragments.ConsultasFragment"
+        android:label="@string/valfragmentconsultas"
+        tools:layout="@layout/fragment_consultas" />
+</navigation>

@@ -3,4 +3,15 @@
     <string name="titulologin">AUTENTICACIÓN</string>
     <string name="valusuario">Ingrese su usuario</string>
     <string name="valpassword">Ingrese su password</string>
+    <string name="valbtnlogin">INGRESAR</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="valfragmentprincipal">Principal</string>
+    <string name="valfragmentgaleria">Galeria</string>
+    <string name="valfragmentnotif">Notificaciones</string>
+    <string name="valfragmentconsultas">Consultas</string>
 </resources>

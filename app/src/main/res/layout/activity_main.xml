@@ -56,15 +56,15 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnlogin"
+        style="?attr/materialButtonOutlinedStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Button"
+        android:text="@string/valbtnlogin"
         app:icon="@drawable/ic_baseline_login_24"
         app:iconGravity="textStart"
         app:layout_constraintEnd_toEndOf="parent"
-        style="?attr/materialButtonOutlinedStyle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
 

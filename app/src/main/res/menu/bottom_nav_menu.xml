@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navPrincipalFragment"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/valfragmentprincipal" />
+    <item
+        android:id="@+id/navGaleriaFragment"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/valfragmentgaleria" />
+    <item
+        android:id="@+id/navNotificacionesFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/valfragmentnotif" />
+    <item
+        android:id="@+id/navConsultasFragment"
+        android:icon="@drawable/ic_baseline_person_search_24"
+        android:title="@string/valfragmentconsultas" />
+
+
+</menu>
